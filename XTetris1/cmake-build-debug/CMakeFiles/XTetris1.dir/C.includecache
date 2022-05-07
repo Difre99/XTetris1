@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/marcodifresco/CLionProjects/XTetris1/tetrisField.c
+/Users/marcodifresco/XTetris1/XTetris1/gameManager.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+tetrisFigure.h
+/Users/marcodifresco/XTetris1/XTetris1/tetrisFigure.h
+tetrisField.h
+/Users/marcodifresco/XTetris1/XTetris1/tetrisField.h
+gameManager.h
+/Users/marcodifresco/XTetris1/XTetris1/gameManager.h
+
+/Users/marcodifresco/XTetris1/XTetris1/gameManager.h
+
+/Users/marcodifresco/XTetris1/XTetris1/main.c
 stdio.h
 -
 stdlib.h
@@ -14,7 +30,13 @@ stdlib.h
 string.h
 -
 tetrisField.h
-/Users/marcodifresco/CLionProjects/XTetris1/tetrisField.h
+/Users/marcodifresco/XTetris1/XTetris1/tetrisField.h
+tetrisFigure.h
+/Users/marcodifresco/XTetris1/XTetris1/tetrisFigure.h
+gameManager.h
+/Users/marcodifresco/XTetris1/XTetris1/gameManager.h
 
-/Users/marcodifresco/CLionProjects/XTetris1/tetrisField.h
+/Users/marcodifresco/XTetris1/XTetris1/tetrisField.h
+
+/Users/marcodifresco/XTetris1/XTetris1/tetrisFigure.h
 

@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/marcodifresco/CLionProjects/XTetris1
+CMAKE_SOURCE_DIR = /Users/marcodifresco/XTetris1/XTetris1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/XTetris1.dir/depend.make
@@ -68,55 +68,55 @@ include CMakeFiles/XTetris1.dir/flags.make
 
 CMakeFiles/XTetris1.dir/main.c.o: CMakeFiles/XTetris1.dir/flags.make
 CMakeFiles/XTetris1.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/XTetris1.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XTetris1.dir/main.c.o -c /Users/marcodifresco/CLionProjects/XTetris1/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/XTetris1.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XTetris1.dir/main.c.o -c /Users/marcodifresco/XTetris1/XTetris1/main.c
 
 CMakeFiles/XTetris1.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/XTetris1.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/marcodifresco/CLionProjects/XTetris1/main.c > CMakeFiles/XTetris1.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/marcodifresco/XTetris1/XTetris1/main.c > CMakeFiles/XTetris1.dir/main.c.i
 
 CMakeFiles/XTetris1.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/XTetris1.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/marcodifresco/CLionProjects/XTetris1/main.c -o CMakeFiles/XTetris1.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/marcodifresco/XTetris1/XTetris1/main.c -o CMakeFiles/XTetris1.dir/main.c.s
 
 CMakeFiles/XTetris1.dir/tetrisField.c.o: CMakeFiles/XTetris1.dir/flags.make
 CMakeFiles/XTetris1.dir/tetrisField.c.o: ../tetrisField.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/XTetris1.dir/tetrisField.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XTetris1.dir/tetrisField.c.o -c /Users/marcodifresco/CLionProjects/XTetris1/tetrisField.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/XTetris1.dir/tetrisField.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XTetris1.dir/tetrisField.c.o -c /Users/marcodifresco/XTetris1/XTetris1/tetrisField.c
 
 CMakeFiles/XTetris1.dir/tetrisField.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/XTetris1.dir/tetrisField.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/marcodifresco/CLionProjects/XTetris1/tetrisField.c > CMakeFiles/XTetris1.dir/tetrisField.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/marcodifresco/XTetris1/XTetris1/tetrisField.c > CMakeFiles/XTetris1.dir/tetrisField.c.i
 
 CMakeFiles/XTetris1.dir/tetrisField.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/XTetris1.dir/tetrisField.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/marcodifresco/CLionProjects/XTetris1/tetrisField.c -o CMakeFiles/XTetris1.dir/tetrisField.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/marcodifresco/XTetris1/XTetris1/tetrisField.c -o CMakeFiles/XTetris1.dir/tetrisField.c.s
 
 CMakeFiles/XTetris1.dir/tetrisFigure.c.o: CMakeFiles/XTetris1.dir/flags.make
 CMakeFiles/XTetris1.dir/tetrisFigure.c.o: ../tetrisFigure.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/XTetris1.dir/tetrisFigure.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XTetris1.dir/tetrisFigure.c.o -c /Users/marcodifresco/CLionProjects/XTetris1/tetrisFigure.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/XTetris1.dir/tetrisFigure.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XTetris1.dir/tetrisFigure.c.o -c /Users/marcodifresco/XTetris1/XTetris1/tetrisFigure.c
 
 CMakeFiles/XTetris1.dir/tetrisFigure.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/XTetris1.dir/tetrisFigure.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/marcodifresco/CLionProjects/XTetris1/tetrisFigure.c > CMakeFiles/XTetris1.dir/tetrisFigure.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/marcodifresco/XTetris1/XTetris1/tetrisFigure.c > CMakeFiles/XTetris1.dir/tetrisFigure.c.i
 
 CMakeFiles/XTetris1.dir/tetrisFigure.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/XTetris1.dir/tetrisFigure.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/marcodifresco/CLionProjects/XTetris1/tetrisFigure.c -o CMakeFiles/XTetris1.dir/tetrisFigure.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/marcodifresco/XTetris1/XTetris1/tetrisFigure.c -o CMakeFiles/XTetris1.dir/tetrisFigure.c.s
 
 CMakeFiles/XTetris1.dir/gameManager.c.o: CMakeFiles/XTetris1.dir/flags.make
 CMakeFiles/XTetris1.dir/gameManager.c.o: ../gameManager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/XTetris1.dir/gameManager.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XTetris1.dir/gameManager.c.o -c /Users/marcodifresco/CLionProjects/XTetris1/gameManager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/XTetris1.dir/gameManager.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/XTetris1.dir/gameManager.c.o -c /Users/marcodifresco/XTetris1/XTetris1/gameManager.c
 
 CMakeFiles/XTetris1.dir/gameManager.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/XTetris1.dir/gameManager.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/marcodifresco/CLionProjects/XTetris1/gameManager.c > CMakeFiles/XTetris1.dir/gameManager.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/marcodifresco/XTetris1/XTetris1/gameManager.c > CMakeFiles/XTetris1.dir/gameManager.c.i
 
 CMakeFiles/XTetris1.dir/gameManager.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/XTetris1.dir/gameManager.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/marcodifresco/CLionProjects/XTetris1/gameManager.c -o CMakeFiles/XTetris1.dir/gameManager.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/marcodifresco/XTetris1/XTetris1/gameManager.c -o CMakeFiles/XTetris1.dir/gameManager.c.s
 
 # Object files for target XTetris1
 XTetris1_OBJECTS = \
@@ -134,7 +134,7 @@ XTetris1: CMakeFiles/XTetris1.dir/tetrisFigure.c.o
 XTetris1: CMakeFiles/XTetris1.dir/gameManager.c.o
 XTetris1: CMakeFiles/XTetris1.dir/build.make
 XTetris1: CMakeFiles/XTetris1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable XTetris1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable XTetris1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/XTetris1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,6 +146,6 @@ CMakeFiles/XTetris1.dir/clean:
 .PHONY : CMakeFiles/XTetris1.dir/clean
 
 CMakeFiles/XTetris1.dir/depend:
-	cd /Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/marcodifresco/CLionProjects/XTetris1 /Users/marcodifresco/CLionProjects/XTetris1 /Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug /Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug /Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/marcodifresco/XTetris1/XTetris1 /Users/marcodifresco/XTetris1/XTetris1 /Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug /Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug /Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/XTetris1.dir/depend
 

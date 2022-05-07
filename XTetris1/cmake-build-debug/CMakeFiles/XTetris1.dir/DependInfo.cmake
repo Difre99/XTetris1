@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/marcodifresco/CLionProjects/XTetris1/gameManager.c" "/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/gameManager.c.o"
-  "/Users/marcodifresco/CLionProjects/XTetris1/main.c" "/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/main.c.o"
-  "/Users/marcodifresco/CLionProjects/XTetris1/tetrisField.c" "/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/tetrisField.c.o"
-  "/Users/marcodifresco/CLionProjects/XTetris1/tetrisFigure.c" "/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/tetrisFigure.c.o"
+  "/Users/marcodifresco/XTetris1/XTetris1/gameManager.c" "/Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/gameManager.c.o"
+  "/Users/marcodifresco/XTetris1/XTetris1/main.c" "/Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/main.c.o"
+  "/Users/marcodifresco/XTetris1/XTetris1/tetrisField.c" "/Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/tetrisField.c.o"
+  "/Users/marcodifresco/XTetris1/XTetris1/tetrisFigure.c" "/Users/marcodifresco/XTetris1/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir/tetrisFigure.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -18,11 +18,11 @@ int main() {
     //printField(newField);
 
     ////TEST TETRIS FIGURE
-    //figure randomFigure = createFigureO();
-    //printFigure(randomFigure);
+    figure randomFigure = createFigureO();
+    printFigure(randomFigure);
 
     ////TEST GAME MANAGER
-    //addFigure(newField,randomFigure);
-    //printField(newField);
+    addFigure(newField,randomFigure);
+    printField(newField);
     return 0;
 }
