@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/XTetris1.dir/main.c.o CMakeFiles/XTetris1.dir/tetrisField.c.o CMakeFiles/XTetris1.dir/tetrisFigure.c.o CMakeFiles/XTetris1.dir/gameManager.c.o -o XTetris1 

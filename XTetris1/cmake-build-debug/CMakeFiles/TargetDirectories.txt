@@ -1,0 +1,3 @@
+/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/marcodifresco/CLionProjects/XTetris1/cmake-build-debug/CMakeFiles/XTetris1.dir

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/marcodifresco/CLionProjects/XTetris1/tetrisField.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+tetrisField.h
+/Users/marcodifresco/CLionProjects/XTetris1/tetrisField.h
+
+/Users/marcodifresco/CLionProjects/XTetris1/tetrisField.h
+
