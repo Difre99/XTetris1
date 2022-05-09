@@ -26,19 +26,19 @@ void printField(field currentField){
 
 void addNumbers (field *newField){
     printf("addNumbers\n");
-    char letterX = 'A';
-    char letterY = 'A';
+    char letterX = '1';
+    char letterY = '1';
     for (int i=0; i<(*newField)->size; i++){
         for(int j=0; j<(*newField)->size; j++){
             if (i==(*newField)->size-1 && j>0 && j<(*newField)->size-1){
-                if (letterX==90){
-                    letterX = 97;
+                if (letterX==58){
+                    letterX = 65;
                 }
                 (*newField) -> mat[i][j] = letterX++;
             }
             if(j==0 && i>0 && i<(*newField)->size-2){
-                if (letterY==90){
-                    letterY = 97;
+                if (letterY==58){
+                    letterY = 65;
                 }
                 (*newField) -> mat[i][j] = letterY++;
             }

@@ -9,48 +9,64 @@
 #include "tetrisField.h"
 #include "gameManager.h"
 
-int* addPosition(int maxPosition){
-    int flag = 0;
-    char charPosX;
+char secondPosition(){
     char charPosY;
-    int posX;
-    int posY;
-    while (!flag){
-        printf("\nInsert X position:");
-        scanf("%c", &charPosX);
-        printf("\nInsert Y position:");
-        scanf("%c", &charPosY);
-        if(((charPosX>=65 && charPosX <=90) || (charPosX>=97 && charPosX<=122)) && ((charPosY>=65 && charPosY <=90)
-        || (charPosY>=97 && charPosY<=122))){
+    printf("\nInsert Y position:\n");
+    scanf("%c", &charPosY);
+    return charPosY;
+}
 
-            if (charPosX>=97 && charPosX<=122){
-                posX = charPosX-97;
-            }
-            else{
-                posX = charPosX-65;
-            }
-            if (charPosY>=97 && charPosY<=122){
-                posY = charPosY-97;
-            }
-            else{
-                posY = charPosY-65;
-            }
-            if (posX<= maxPosition && posY<= maxPosition){
-                flag = 1;
-            }
-            else{
-                printf("\nWrorng position, pick another one!");
-            }
+int* addPosition(int maxPosition){
+    //TODO: a != A, va risolto, se non mette la virgola va risolto, se esce dallo spazio lancia segmentation fault
+    int flag = 0;
+    char charPosX = 0;
+    char charPosY = 0;
+    int posX = 0;
+    int posY = 0;
+
+    char a[3];
+    printf("\nInsert position: like -> 1,2\n");
+    scanf("%s", &a);
+    charPosX = a[0];
+    charPosY = a[2];
+    printf("char posx=%d, char posy=%d\n",charPosX,charPosY);
+
+    if(((charPosX>=49 && charPosX <=57) || (charPosX>=65 && charPosX<=90)) && ((charPosY>=49 && charPosY <=57)
+    || (charPosY>=65 && charPosY<=90))){
+
+        if (charPosX>=65 && charPosX<=90){
+            posX = charPosX-55;
+        }
+        else if (charPosX>=49 && charPosX <=57){
+            posX = charPosX-49;
+        }
+        if (charPosY>=65 && charPosY<=90){
+            posY = charPosY-55;
+        }
+        else if (charPosY>=49 && charPosY <=57){
+            posY = charPosY-49;
+        }
+        printf("posX = %d, posY = %d",posX,posY);
+        if (posX<= maxPosition && posY<= maxPosition){
+            int res []= {posX,posY};
+            return res;
+        }
+        else{
+            printf("\nWrong position, pick another oneeeeee!");
+            return addPosition(maxPosition);
         }
     }
-    int res []= {posX,posY};
-    return res;
+    else{
+        printf("\nWrong position, pick another one!");
+        return addPosition(maxPosition);
+    }
 }
 
 void addFigure(field gameField, figure gameFigure){
     int *position = addPosition(gameField->size-3);
-    int posX = 2;
-    int posY = 2;
+    int posX = position[0];
+    int posY = position[1];
+    printf("posx = %d, posy = %d\n",posX,posY);
     for (int i=0; i<FIGURE_SIZE; i++){
         for (int j=0; j<FIGURE_SIZE; j++){
             if (gameFigure->mat[i][j]){
@@ -58,7 +74,8 @@ void addFigure(field gameField, figure gameFigure){
                     gameField->mat[posX+i][posY+j] = FULL;
                 }
                 else {
-                    printf("ERROR BRUH!");
+                    printf("ERROR BRUH!\n");
+                    addFigure(gameField,gameFigure);
                 }
             }
         }
